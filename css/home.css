@@ -1,36 +1,5 @@
 
 
-
-.abrir{
-    background-color: white;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #1D949C;
-    top: 0px;
-    left: 0px;
-    
-}
-
-.abrir button{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: none;
-    background: transparent;
-    color: #1D949C;
-}
-
-.abrir.oculto{
-    display: none;
-}
-
-
 .js .home{
     opacity: 1; /* mudar para 0 caso queira entrar com musica */
     
@@ -44,16 +13,16 @@
 }
 .home {
     background-image: url("../img/fundo.jpg");
-    background-position:  center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    background-position: center;
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: centsr;
-    padding-top: calc(20vh);
+    align-items: center;
+ 
     overflow-x: hidden;
     
     

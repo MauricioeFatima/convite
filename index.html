@@ -122,7 +122,7 @@
                 </span>
                 <div class="bandeira_container">
                     <div class="band">
-                        <p>Cerimônia e Festa
+                        <p>Cerimónia e Festa
                         </p>
                         <img src="img/bandeira.svg">
                     </div>
@@ -136,7 +136,7 @@
                     <p class="band-texto dia">Horário
                     </p>
                     <p class="band-texto informacoes">
-                     Cerimônia e Coctail:<br> 16h - Sólario 17º Piso Galáxia
+                     Cerimónia e Coctail:<br> 16h - Sólario 17º Piso Galáxia
                     </p>
                     <p class="band-texto informacoes">
                         Jantar e Festa:<br> 19h - Terreiro Gastrobar Interior
@@ -144,7 +144,7 @@
                        <p class="band-texto dia">Local
                     </p>
                     <p class="band-texto informacoes">
-                Hotel Savoy Palace
+                Hotel Savoy Palace( cerimónia e festa no mesmo local)
                 </p>
                     <a href="https://maps.app.goo.gl/S9LpCZ88p8qdFUR49" target="_blank" class="btn">Ver o trajeto</a>
                     <a href="https://api.whatsapp.com/send?phone=351960236014&text=Ol%C3%A1%2C%20presen%C3%A7a%20confirmada!" target="_blank" class="btn confirmar">Confirmar Presença</a>
@@ -209,7 +209,7 @@
             <ul>
                 <li class="dia">Música</li>
                 <li><img src="img/musica.svg"></li>
-                <li class="font-1-400-m">Gostaria de sugerir uma música pra festa?</li>
+                <li class="font-1-400-m">Gostaria de sugerir uma música para festa?</li>
                 <button class="modal-button btn" onclick="openModal('modal1')">Sugerir música</button>
             </ul>
         </div>
@@ -236,44 +236,6 @@
             </div>
         </div>
     </div>
-    <div id="modal2" class="modal modal-scroll">
-        <div class="modal-content">
-            <div class="modal-container">
-                <span class="close" onclick="closeModal('modal2')">&times;</span>
-                <div class="dicas">
-                    <h2>Para os Homens:</h2>
-                    <ul>
-                        <li><strong>Terno ou Smoking:</strong> Em casamentos formais, opte por um terno ou smoking bem ajustado. Cores clássicas como preto, cinza, marinho ou grafite são escolhas seguras.</li>
-                        <li><strong>Camisa:</strong> Use uma camisa de vestir de boa qualidade, preferencialmente branca ou uma cor que combine com o terno.</li>
-                        <li><strong>Gravata:</strong> Escolha uma gravata que combine com o traje. Em eventos mais formais, opte por uma gravata borboleta para o smoking.</li>
-                        <li><strong>Sapatos:</strong> Sapatos sociais, como oxford ou derby, são ideais. Eles devem ser bem polidos e combinando com a cor do cinto.</li>
-                        <li><strong>Meias:</strong> Use meias que combinem com a cor dos sapatos ou do traje.</li>
-                    </ul>
-                    <h2>Para as Mulheres:</h2>
-                    <ul>
-                        <li><strong>Vestido:</strong> Escolha um vestido apropriado para o código de vestimenta do casamento. Em casamentos formais, vestidos longos são adequados, enquanto em casamentos mais informais, vestidos curtos podem ser uma escolha.</li>
-                        <li><strong>Sapatos:</strong> Use sapatos elegantes que sejam confortáveis para dançar. Evite saltos muito altos, a menos que esteja confortável com eles.</li>
-                        <li><strong>Acessórios:</strong> Complemente seu look com acessórios como joias, bolsas e lenços que combinem com o vestido. Evite exagerar nos acessórios para não chamar mais atenção do que a noiva.</li>
-                        <li><strong>Maquiagem e Cabelo:</strong> Mantenha a maquiagem e o penteado de acordo com o estilo do casamento. Evite exageros e escolha um visual que realce sua beleza natural.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="modal3" class="modal modal-scroll">
-        <div class="modal-content">
-            <div class="modal-container">
-                <span class="close" onclick="closeModal('modal3')">&times;</span>
-                <div class="dicas">
-                    <h2>Dicas e Notas</h2>
-                    <ul>
-                        <li>Recomendamos que levem agasalho (casamento ao ar livre).</li>
-                        <li>Relembrando que o Buffet deverá ser pago até dia 18/09/2023.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
     <div id="modalBtn" class="modal modal-scroll">
         <div class="modal-content">
             <div class="modal-container">
@@ -291,7 +253,7 @@
     <div class="presentes">
         <div class="titulo-modal container" data-aos="fade-up">
             <p class="font-2-a subtitulo">Presentes</p>
-            <p class="font-1-400-m">Se você quiser nos dar algo mais do que sua linda presença ...</p>
+            <p class="font-1-400-m">Se tu quiseres nos dar algo a mais que a tua linda presença ...</p>
             <button class="modalBtn btn" onclick="openModal('modalBtn')">Saber mais</button>
         </div>
     </div>
@@ -303,27 +265,6 @@
 
     </audio>
 </body>
-<script>
-    const btn = document.querySelector('.btn-js');
-    btn.addEventListener("click", showModal);
-
-    function playaudio() {
-        const audio = document.querySelector("#audio");
-        audio.play();
-    }
-
-    function removeModal() {
-        const modal = document.querySelector(".abrir");
-        modal.classList.add("oculto");
-    }
-
-    function showModal() {
-        const home = document.querySelector(".home");
-        home.classList.add("ativo");
-    }
-
-
-</script>
 <script type="text/javascript" src="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 <script src="simple-anime.js"></script>
 <script src="script.js"></script>
@@ -331,6 +272,6 @@
 <script>
     AOS.init();
 </script>
-<script src="parametros.js"></script>
+
 
 </html>
